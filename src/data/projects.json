@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Portal de trámites municipales",
+    "description": "Maquetación frontend y personalización de formularios responsive para distintas sedes electrónicas municipales.",
+    "image": "/images/projects/imagen1.jpg",
+    "link": "https://github.com/AlvaroGarciaMartin",
+    "tags": ["HTML", "CSS", "JavaScript", "Accesibilidad"]
+  },
+  {
+    "title": "Sistema de ticketing interno",
+    "description": "Implantación y configuración de una plataforma de soporte para centralizar incidencias y mejorar tiempos de respuesta.",
+    "image": "/images/projects/imagen2.jpg",
+    "link": "https://github.com/AlvaroGarciaMartin",
+    "tags": ["Sistemas", "Automatización", "Soporte", "Documentación"]
+  },
+  {
+    "title": "Panel de gestión SQL",
+    "description": "Scripts y utilidades para administración de bases de datos, control de accesos y mantenimiento en SQL Server.",
+    "image": "/images/projects/imagen3.jpg",
+    "link": "https://github.com/AlvaroGarciaMartin",
+    "tags": ["SQL Server", "PostgreSQL", "MySQL", "Backoffice"]
+  }
+]

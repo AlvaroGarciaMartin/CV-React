@@ -1,0 +1,153 @@
+:root {
+  /* https://colorhunt.co/palette/113f6734699a58a0c8fdf5aa */
+  --primary-color: #113F67;
+  --secondary-color: #34699A;
+  --tertiary-color: #58A0C8;
+  --text-color: #FDF5AA;
+}
+
+body {
+    background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), /* Capa oscura con opacidad */
+    url('images/fondo.jpg') center center/cover no-repeat;
+  color: var();
+  font-family: 'Segoe UI', sans-serif;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.botonesCentral {
+  border-radius: 20%;
+  border-color: #00DBEF;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: transparent;
+  color: #00DBEF;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+
+/* Quitar fondo de contenedor bootstrap */
+main,
+section {
+  /* semitransparente para ver el fondo */
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+/* Formularios */
+form input,
+form textarea {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4caf50;
+}
+
+form button {
+  background-color: #4caf50;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #43a047;
+}
+
+/* Títulos */
+h1,
+h2 {
+  font-weight: bold;
+}
+
+/* Botón de navegación activa */
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Responsive hack para evitar scroll horizontal */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* estilos section */
+.section {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: max-height 1s ease;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.section h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.section .content {
+  margin-top: 10px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.section.expanded .content {
+  display: block;
+}
+
+.section.expanded {
+  max-height: 500px;
+  /* Altura expandida, ajusta según el contenido real */
+}
+#sobre-mi-titulo,
+#proyectos-titulo,
+#contacto-titulo,
+#experiencia-titulo {
+  text-align: center;
+  
+}
+
+.icono-empresa,
+#icono-empresa2,
+#icono-empresa3 {
+  background-color: black;
+}
+
+dialog {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}

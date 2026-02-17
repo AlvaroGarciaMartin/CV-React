@@ -1,0 +1,44 @@
+[
+  {
+    "role": "Administrador de Sistemas y CTO",
+    "place": "PGO UCAM · Almería",
+    "dates": "Abril 2025 - Actualidad",
+    "logo": "/images/IconsEmpresas/PGO3.png",
+    "details": "Desde mi comienzo, mi papel ha sido fundamentalmente administrador de sistemas, gestionando servidores, máquinas virtuales y bases de datos.\n\nEstoy desarrollando aptitudes de análisis de necesidades, gestión de proyectos, resolución de incidencias, coordinación de equipos y gestión de recursos.\n\nActualmente, estoy liderando el departamento IT y trabajando en el desarrollo de nuevas tecnologias\n\nTecnologías: Windows Server, SQL Server, PostgreSQL, MySQL, Hyper-V, VMware, VirtualBox, Azure y Office365.",
+    "entities": []
+  },
+
+  {
+    "role": "Técnico de soporte",
+    "place": "keycoes · Almería",
+    "dates": "Febrero 2024 - Agosto 2024",
+    "logo": "/images/IconsEmpresas/keycoes1.png",
+    "details": "Soporte para entidades bancarias, con foco en asistencia a usuarios y resolución de incidencias.\n\nParticipación en proyecto de renovación tecnológica de Cajamar con tareas de automatización, configuración y testing de equipos.\n\nPromedio de resolución: 450 incidencias al mes.",
+    "entities": []
+  },
+    {
+    "role": "Técnico de soporte y responsable de soporte",
+    "place": "Add4u · Madrid",
+    "dates": "Agosto 2019 - Febrero 2024",
+    "logo": "/images/IconsEmpresas/add4uicon3.png",
+    "details": "Desarrollo de formularios web para ayuntamientos, administración de bases de datos y gestión de proyectos.\n\nAutomatización de procesos en entornos de gestión documental, asistencia a usuarios, resolución de incidencias y colaboración técnica en decisiones de cliente.\n\nTecnologías: HTML, CSS, JavaScript, PHP, SQL Server y herramientas de ticketing/documentación.",
+    "entities": [
+      {
+        "name": "Ayuntamiento de Cabrerizos",
+        "url": "https://sedeelectronica.ayto-cabrerizos.com/eAdmin/Sede.do"
+      },
+      {
+        "name": "Ayuntamiento de Navalcarnero",
+        "url": "https://sede.navalcarnero.es/eAdmin/Sede.do"
+      },
+      {
+        "name": "Ayuntamiento de El Escorial",
+        "url": "https://elescorial.sedelectronica.es/info.0"
+      },
+      {
+        "name": "Servicios sociales THAM",
+        "url": "https://www.mancomunidad-tham.es/"
+      }
+    ]
+  }
+]
